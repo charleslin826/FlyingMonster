@@ -1,0 +1,6 @@
+framework module FlyingMonster {
+  umbrella header "FlyingMonster-umbrella.h"
+
+  export *
+  module * { export * }
+}
