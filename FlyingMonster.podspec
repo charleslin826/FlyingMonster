@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FlyingMonster'
-  s.version          = '0.1.4'
+  s.version          = '0.1.6'
   s.summary          = 'There will be Monster&Rocket flying around!'
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
 
   s.source_files =  ['FlyingMonster/Classes/**/*']
-  s.resources = 'FlyingMonster/Assets/Images.xcassets/**/*'
+  s.resources = 'FlyingMonster/Assets/Images.xcassets/**/*.png'
 #s.resource_bundles = {
 #  'FlyingMonster' => ['FlyingMonster/Assets/Images.xcassets/**/*.png']
 #}
