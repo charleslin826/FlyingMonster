@@ -30,15 +30,10 @@ TODO: Add long description of the pod here.
   s.swift_version    = '4.0'
   s.ios.deployment_target = '9.0'
 
-  s.source_files =  {
-  'MyLibrary' => ['FlyingMonster/Classes/**/*'],
-  'OtherResources' => ['FlyingMonster/Assets/**/*.png']
-}
-# 'FlyingMonster/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'FlyingMonster' => ['FlyingMonster/Assets/*.png']
-  # }
+  s.source_files =  ['FlyingMonster/Classes/**/*','FlyingMonster/Assets/Images.xcassets/*.{imageset,png}']
+   s.resource_bundles = {
+     'FlyingMonster' => ['FlyingMonster/Assets/Images.xcassets/**/*.png']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
