@@ -31,10 +31,10 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
 
   s.source_files =  ['FlyingMonster/Classes/**/*']
-  s.resources = 'FlyingMonster/Assets/Images.xcassets/**/*.png'
-#s.resource_bundles = {
-#  'FlyingMonster' => ['FlyingMonster/Assets/Images.xcassets/**/*.png']
-#}
+#s.resources = 'FlyingMonster/Assets/*.xcassets'
+s.resource_bundles = {
+  'FlyingMonster' => ['FlyingMonster/Assets/*.xcassets']
+}
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
